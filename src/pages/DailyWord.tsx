@@ -10,8 +10,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { FC, useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-import { FiVolume2 } from "react-icons/fi";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
 
 const DailyWord: FC = () => {
   const navigate = useNavigate();
